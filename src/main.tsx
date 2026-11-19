@@ -6,6 +6,6 @@ import Atv1 from '../src/atv/Atv1.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Atv1 />
+    <App />
   </StrictMode>,
 )
