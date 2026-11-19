@@ -5,8 +5,12 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100">
       <Header />
-      <CardLivros />
-      
+
+      <CardLivros
+        titulo="Dom Casmurro"
+        autor="Machado de Assis"
+        categoria="Literatura"
+      />
     </div>
   )
 }
